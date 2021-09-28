@@ -171,6 +171,26 @@ body {
   background-color: $darkBlue;
 }
 
+
+/*thank-you page*/
+.thank-you {
+  
+  background-color: $darkBlue;
+  align-items: center;
+  text-align: center;
+  margin: 250px 10px;
+  padding: 10px;
+  font-family: $accent;
+  border-radius: 5px;
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2.5em;
+    }
+
+}
+
 /*extra small just in case*/
 @media only screen and (max-width: 320px) {
 .heading {
