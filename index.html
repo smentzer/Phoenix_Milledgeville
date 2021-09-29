@@ -317,6 +317,7 @@
                 type="text"
                 class="validate form-control"
                 name="name" required
+                autocomplete="off"
               />
               <label for="icon_prefix">Name</label>
             </div>
@@ -328,6 +329,7 @@
                 type="email"
                 class="validate form-control"
                 name="email" required
+                autocomplete="off"
               />
               <label for="icon_email">Email</label>
             </div>
@@ -350,6 +352,7 @@
                 id="icon_prefix2"
                 class="materialize-textarea form-control"
                 name="message" required
+                autocomplete="off"
               ></textarea>
               <label for="icon_prefix2">Message</label>
             </div>
@@ -363,6 +366,8 @@
               name="_subject"
               value="New message from Phoenix Milledgeville!"
             />
+            <!--how the information is displayed-->
+            <input type="hidden" name="_template" value="table">
 <!--Thank you page redirect-->
             <input
               type="hidden"
